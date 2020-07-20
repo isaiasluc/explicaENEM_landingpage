@@ -27,14 +27,16 @@ left-col {
 .left-text {
     display: flex;
     margin: 100px;
-    margin-top: 200px;
+    margin-top: 100px;
+    text-align: justify;
 }
 
 right-col {
     grid-area: right-col;
     background: #F6A5A4;
+    
+    background-image: url("../images/bg-landing-page.png");
     background-size: cover;
-    background-image: url("../images/bg-1.png");
 }
 
 .container {
@@ -98,4 +100,8 @@ right-col {
 
 .right-col {
     grid-area: right-col;
+}
+
+.card {
+    background-color: transparent;
 }
