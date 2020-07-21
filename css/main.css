@@ -33,11 +33,14 @@ html, body {
     border-radius: 8px; 
 }
 
-.card {
+.text {
+    background: transparent;
+    text-decoration: none;
     text-align: justify;
     display: flex;
     width: 500px;
     padding: 50px;
+    margin-left: 100px;
     
 }
 aside {
@@ -45,11 +48,15 @@ aside {
 }
 
 section {
-    background-image: url("../images/bg-landing-page.png");
-    background-size: cover;
-    min-height: 800px;
+    min-height: 600px;
+    min-width: 1200px;
 }
 
+.bg-land {
+    background-image: url("../images/bg-landing-page.png");
+    background-size: cover;
+    min-height: fit-content;
+}
 .video {
     text-align: center;
     padding-top: 100px;
