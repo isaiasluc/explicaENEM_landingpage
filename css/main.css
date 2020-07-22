@@ -2,64 +2,133 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #7159c1;
     font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
 }
 
+.navbar {
+    background: #1C72AB;
+}
+
+
 .navbar-brand {
-    margin: 30px;
+    
 }
 .nav-item {
     margin: 20px;
-    padding: 10px;
+    padding-right: 10px;
     font-weight: 700;
 }
 
 #btn-1 {
     background-color: #F6A5A4;
     border: solid 1px white;
-    border-radius: 8px; 
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
 }
 
 #btn-2 {
     background-color: #3BFFAC;
     border: solid 1px white;
-    border-radius: 8px; 
+    border-radius: 8px;
+    color: white; 
+    padding: 10px;
 }
 
 #btn-3 {
     background-color: #1C72AB;
     border: solid 1px white;
-    border-radius: 8px; 
+    border-radius: 8px;
+    color: white; 
+    padding: 10px;
 }
 
 .text {
-    background: transparent;
     text-decoration: none;
     text-align: justify;
     display: flex;
-    width: 500px;
-    padding: 50px;
-    margin-left: 100px;
-    
-}
-aside {
-    min-height: 600px;
+    color: white;
 }
 
 section {
     min-height: 600px;
-    min-width: 1200px;
 }
 
 .bg-land {
-    background-image: url("../images/bg-landing-page.png");
-    background-size: cover;
-    min-height: fit-content;
+    background-color: #F6A5A4;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
-.video {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+
+.jornada {
     background-color: #1C72AB;
 }
+
+.video-section {
+    background-color: whitesmoke;
+    padding: 100px;
+}
+
+.btn-jornada {
+    text-align: center;
+    padding: 100px;
+}
+
+.socials {
+    background-color: whitesmoke;
+    padding: 100px;
+}
+
+.socials-box {
+    padding: 20px;
+    margin: 30px;
+}
+
+.socials-name {
+    padding-top: 30px;
+    color: black;
+    text-align: center;
+}
+
+.fab {
+    padding: 20px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fab:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-youtube {
+    background: #DC4539;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+  }
+
+  .footer {
+      background-color: #3BFFAC;
+      padding: 10px;
+  }
