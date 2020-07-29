@@ -4,6 +4,14 @@ html, body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     background-color: whitesmoke;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+section {
+    height: 100vh;
 }
 
 .navbar {
@@ -51,17 +59,18 @@ html, body {
     color: white;
 }
 
-section {
-    min-height: 600px;
-}
+
 
 .bg-land {
-    background-color: #F6A5A4;
+    background-image: url("../images/bg-landing-page-2.png");
+    background-size: cover;
+    background-color: rebeccapurple;
     display: flex;
     justify-content: space-around;
     padding: 50px;
     padding-top: 200px;
     padding-bottom: 200px;
+    
 }
 
 .jornada {
