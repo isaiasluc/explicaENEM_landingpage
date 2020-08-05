@@ -1,0 +1,155 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/*
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    background-color: green;
+    list-style: none;
+    
+}
+*/
+
+nav {
+    background-color: #1C72AB;
+    height: 80px;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+article {
+    height: 90vh;
+    width: 100vw;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobre {
+    background: url('../assets/bg-landing-page-2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#text-about {
+    padding: 100px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+#video {
+    background-color: whitesmoke;
+    height: 80vh;
+}
+
+#volunt {
+    background-color: #1C72AB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.volunt-intern {
+    padding: 30px;
+    font-weight: 700;
+    color: white;
+    font-size: 1.4rem;
+    
+}
+
+.btns {
+    font-size: 1.4rem;
+    border: solid 1px transparent;
+    background-color: rgb(13, 190, 93);
+    border-radius: 6px;
+    padding: 6px;
+    transition: 0.5s;
+    color: white;
+    
+}
+
+
+.btns:hover {
+    background: rgb(3, 68, 32);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#socials {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 50vh;
+    font-size: 1.5rem;
+}
+
+.socials-box {
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 50px;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fa-youtube {
+    
+    color: red;
+    outline: none;
+}
+
+.social-name {
+    padding-top:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    height: 20px;
+    background-color: #3BFFAC;
+}
