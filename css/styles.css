@@ -2,45 +2,21 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     background-color: whitesmoke;
     scrollbar-width: none;
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
     display: none;
 }
 
-
-/*
-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: transparent;
-    align-items: center;
-    height: 10vh;
-    width: 100vw;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-ul {
-    display: flex;
-    
-    align-items: center;
-    justify-content: space-between;
-}
-
-li {
-    background-color: green;
-    list-style: none;
-    
-}
-*/
-
 nav {
     background-color: #1C72AB;
-    height: 80px;
+    height: 65px;
 }
 
 img {
@@ -53,7 +29,6 @@ img {
 article {
     height: 90vh;
     width: 100vw;
-    background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +44,8 @@ article {
     padding: 100px 50px;
     font-size: 16px;
     font-weight: 700;
-    
+    color: white;
+    line-height: 2rem;
 }
 
 #video {
@@ -78,7 +54,9 @@ article {
 }
 
 #volunt {
-    background-color: #1C72AB;
+    background: #50C9C3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -93,21 +71,59 @@ article {
 }
 
 .btns {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     border: solid 1px transparent;
     background-color: rgb(13, 190, 93);
     border-radius: 6px;
-    padding: 6px;
+    padding: 15px 30px;
     transition: 0.5s;
     color: white;
+}
+
+#parceiros {
+    height: 30vh;
+}
+
+#time-explica {
+    flex-direction: column;
+    height: 100vh;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    background: #9796f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#time-explica p {
+    padding-bottom: 50px;
+}
+
+.time-profile {
+    display: flex;
+    flex-direction: row;
     
 }
 
+.time-person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-.btns:hover {
-    background: rgb(3, 68, 32);
-    transition: 0.5s;
-    cursor: pointer;
+.time-description {
+    font-size: 1rem;
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+.time-description p {
+    font-size: 0.9rem;
+    font-weight: 400;
 }
 
 #socials {
@@ -123,22 +139,30 @@ article {
     flex-direction: row;   
     align-items: center;
     justify-content: center;
-    
     margin-top: 50px;
 }
 
 .social-icon {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+    padding: 0px 20px;
+}
+
+.fab {
+    font-size: 2.5rem;
 }
 
 .fa-youtube {
-    
     color: red;
     outline: none;
+}
+
+.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .social-name {
@@ -146,10 +170,55 @@ article {
     padding-left: 10px;
     padding-right: 10px;
     color: black;
+    font-size: 14px;
 }
 
 footer {
     text-align: center;
     height: 20px;
     background-color: #3BFFAC;
+}
+
+@media (min-width:1100px) {
+    .nav-wrapper > a {
+        padding-left: 10px;
+    }
+
+    .btns {
+        font-size: 1.4rem;
+        border: solid 1px transparent;
+        background-color: rgb(13, 190, 93);
+        border-radius: 6px;
+        padding: 15px 30px;
+        transition: 0.5s;
+        color: white;
+        
+    }
+    
+    
+    .btns:hover {
+        background: rgb(3, 68, 32);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .fab {
+        border: solid 1px white;
+        border-radius: 50px;
+        padding: 5px;
+        font-size: 3rem;
+    }
+
+    .time-person {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .time-description {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
 }
