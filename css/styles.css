@@ -258,6 +258,11 @@ footer {
         padding-bottom: 30px;
     }
 
+    .partners-logo img {
+        margin: 0px 80px;
+    }
+    
+
     #time-explica {
         font-size: 2.5rem;
     }
