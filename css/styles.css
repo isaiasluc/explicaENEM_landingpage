@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
 
 nav {
     background-color: #1C72AB;
-    height: 65px;
+    height: 66px;
 }
 
 img {
@@ -35,9 +35,17 @@ article {
 }
 
 #sobre {
+    /*
     background: url('../assets/bg-landing-page-2.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    */
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 }
 
 #text-about {
@@ -53,21 +61,46 @@ article {
     height: 80vh;
 }
 
+#parceiros {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#parceiros p {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.partners-logo img {
+    margin: 0px 20px;
+}
+
 #volunt {
-    background: #50C9C3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*
+    background: #50C9C3;  /* fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+    */
+    background: #ec008c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
 .volunt-intern {
-    padding: 30px;
+    padding: 20px;
     font-weight: 700;
     color: white;
     font-size: 1.4rem;
-    
+}
+
+.volunt-intern p {
+    padding-bottom: 30px;
 }
 
 .btns {
@@ -80,19 +113,21 @@ article {
     color: white;
 }
 
-#parceiros {
-    height: 30vh;
-}
-
 #time-explica {
     flex-direction: column;
     height: 100vh;
     font-size: 1.4rem;
     font-weight: 700;
     color: white;
-    background: #9796f0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*
+    background: #9796f0;
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);
+    background: linear-gradient(to right, #fbc7d4, #9796f0);
+    */
+    background: #536976;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #time-explica p {
@@ -132,6 +167,7 @@ article {
     background-color: whitesmoke;
     height: 50vh;
     font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .socials-box {
@@ -149,7 +185,7 @@ article {
 }
 
 .fab {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .fa-youtube {
@@ -165,18 +201,13 @@ article {
     -webkit-background-clip: text;
 }
 
-.social-name {
-    padding-top:10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: black;
-    font-size: 14px;
-}
-
 footer {
     text-align: center;
+    color: white;
     height: 20px;
-    background-color: #3BFFAC;
+    background: #0052D4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media (min-width:1100px) {
