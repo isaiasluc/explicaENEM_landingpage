@@ -41,6 +41,20 @@ article {
     justify-content: center;
 }
 
+#welcome {
+    height: 70vh;
+    background: url('../assets/bg-landing-page-2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#welcome-text {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
 #sobre {
     height: 95vh;
     /*
@@ -71,23 +85,24 @@ background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, F
 }
 
 #parceiros {
-    height: 70vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
 }
 
 #parceiros p {
+    color: #1C72AB;
     font-weight: 700;
     font-size: 1.5rem;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .partners-logo img {
     margin: 0px 10px;
     width: auto;
     height: auto;
-    max-width: 150px;
-    max-height: 120px;
+    max-width: 120px;
+    max-height: 100px;
 }
 
 #volunt {
@@ -187,6 +202,7 @@ background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, F
     height: 50vh;
     font-size: 1.5rem;
     font-weight: 700;
+    color: #1C72AB;
 }
 
 .socials-box {
@@ -234,6 +250,14 @@ footer {
         padding-left: 50px;
     }
 
+    #welcome-text {
+        color: white;
+        font-size: 1.6rem;
+        line-height: 3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
     #video iframe {
         width: 640px;
         height: 360px;
@@ -274,14 +298,14 @@ footer {
     }
 
     #parceiros p {
+        color: #1C72AB;
         font-size: 2.5rem;
-        padding-bottom: 30px;
     }
 
     .partners-logo img {
-        margin: 0px 80px;
-        width: 250px;
-        height: 200px;
+        margin: 0px 70px;
+        width: 200px;
+        height: 150px;
         max-width: 250px;
         max-height: 200px;
     }
