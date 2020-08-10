@@ -19,7 +19,14 @@ nav {
     height: 66px;
 }
 
-img {
+nav img {
+    width: auto;
+    height: auto;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.time-person > img {
     width: auto;
     height: auto;
     max-width: 80px;
@@ -35,6 +42,7 @@ article {
 }
 
 #sobre {
+    height: 95vh;
     /*
     background: url('../assets/bg-landing-page-2.png');
     background-size: 100% 100%;
@@ -63,7 +71,7 @@ background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, F
 }
 
 #parceiros {
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
 }
@@ -71,11 +79,15 @@ background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, F
 #parceiros p {
     font-weight: 700;
     font-size: 1.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .partners-logo img {
-    margin: 0px 15px;
+    margin: 0px 10px;
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 120px;
 }
 
 #volunt {
@@ -229,7 +241,8 @@ footer {
 
     #text-about > p {
         font-size: 1.5rem;
-        line-height: 3rem;
+        line-height: 4rem;
+        padding: 200px;
     }
 
     .btns {
@@ -267,6 +280,10 @@ footer {
 
     .partners-logo img {
         margin: 0px 80px;
+        width: 250px;
+        height: 200px;
+        max-width: 250px;
+        max-height: 200px;
     }
     
 
