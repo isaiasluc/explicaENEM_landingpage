@@ -16,12 +16,12 @@ body::-webkit-scrollbar {
 
 nav {
     background-color: #1C72AB;
-    height: 66px;
+    height: 65px;
 }
 
 nav img {
     width: auto;
-    height: auto;
+    height: 65px;
     max-width: 80px;
     max-height: 80px;
 }
@@ -49,7 +49,7 @@ article {
 }
 
 #welcome-text {
-    color: white;
+    color: #2E2E2E;
     font-size: 1.6rem;
     font-weight: 700;
     text-align: center;
@@ -204,9 +204,9 @@ background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, F
     background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: #4e54c8;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 60vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -235,7 +235,7 @@ background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, F
 
 #time-explica {
     flex-direction: column;
-    height: 100vh;
+    height: 60vh;
     font-size: 1.4rem;
     font-weight: 700;
     color: white;
@@ -245,12 +245,11 @@ background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, F
     background: linear-gradient(to right, #fbc7d4, #9796f0);
     */
     background: #536976;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: #654ea3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #time-explica p {
@@ -280,7 +279,7 @@ background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, F
 }
 
 .time-description p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 400;
 }
 
@@ -294,22 +293,15 @@ background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, F
     color: #1C72AB;
 }
 
-
-
-
-
 footer {
     text-align: center;
-    color: white;
+    color: black;
     height: 20px;
-    background: #0052D4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media (min-width:1100px) {
     .nav-wrapper > a {
-        padding-left: 50px;
+        margin-left: 50px;
     }
 
     
@@ -409,8 +401,8 @@ footer {
 }
  
     #welcome-text {
-        color: white;
-        font-size: 1.6rem;
+        color: #2E2E2E;
+        font-size: 2rem;
         line-height: 3rem;
         font-weight: 700;
         text-align: center;
@@ -423,7 +415,7 @@ footer {
 
     #text-about > p {
         font-size: 1.5rem;
-        line-height: 4rem;
+        line-height: 3rem;
         padding: 200px;
     }
 
@@ -446,13 +438,16 @@ footer {
 
     .volunt-intern > p {
         font-size: 2.5rem;
-        padding-bottom: 100px;
     }
 
     ul > li > a {
         font-size: 16px;
         font-weight: 700;
-        padding: 0px 50px;
+        padding: 0px 30px;
+    }
+
+    #nav-mobile {
+        margin-right: 50px;
     }
 
     #parceiros p {
@@ -474,13 +469,16 @@ footer {
     }
 
     #time-explica > p {
-        padding: 100px 0px;
+        padding: 50px 0px;
     }
 
     .time-description {
         font-size: 1.5rem;
     }
 
+    .time-description p {
+        font-size: 1rem;
+    }
 
     .fab {
         font-size: 2.7rem;
