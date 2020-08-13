@@ -3,8 +3,8 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     /*font-family: Arial, Helvetica, sans-serif;*/
-    /*font-family: 'Roboto', sans-serif;*/
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
     background-color: whitesmoke;
     scrollbar-width: none;
     scroll-behavior: smooth;
@@ -212,7 +212,7 @@ article {
 
 #text-about {
     padding: 100px 50px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     color: white;
     line-height: 2rem;
@@ -227,13 +227,14 @@ article {
     height: 50vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 #parceiros p {
     color: #1C72AB;
     font-weight: 700;
     font-size: 1.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .partners-logo img {
@@ -245,15 +246,10 @@ article {
 }
 
 #volunt {
-    /*
-    background: #50C9C3;  /* fallback for old browsers 
-    background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 
-    background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
-    */
     background: url('../assets/bg-landing-page-4.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -267,7 +263,7 @@ article {
 }
 
 .volunt-intern p {
-    padding-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .btns {
@@ -482,6 +478,7 @@ footer {
 
     .volunt-intern > p {
         font-size: 2.5rem;
+        margin-bottom: 150px;
     }
 
     ul > li > a {
@@ -500,11 +497,12 @@ footer {
     }
 
     .partners-logo img {
-        margin: 0px 70px;
+        margin: 0px 70px 30px;
         width: 200px;
         height: 150px;
         max-width: 250px;
         max-height: 200px;
+        
     }
     
 
@@ -513,7 +511,7 @@ footer {
     }
 
     #time-explica > p {
-        padding: 50px 0px;
+        padding: 70px 0px;
     }
 
     .time-description {
@@ -536,7 +534,7 @@ footer {
     }
 
     #socials > p {
-        padding-bottom: 50px;
+        margin-bottom: 150px;
         font-size: 2.5rem;
     }
     
