@@ -107,15 +107,9 @@ article {
 
 #sobre {
     height: 95vh;
-    /*
-    background: url('../assets/bg-landing-page-2.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    */
     background: url('../assets/bg-landing-page-3.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
 }
 /* ****************************************** */
  /* Wrapper */
@@ -214,13 +208,22 @@ article {
     padding: 100px 50px;
     font-size: 15px;
     font-weight: 700;
-    color: white;
+    color: #1C72AB;
     line-height: 2rem;
 }
 
 #video {
     background-color: whitesmoke;
     height: 80vh;
+    flex-direction: column;
+    color: #1C72AB;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+#video p {
+    margin-bottom: 50px;
 }
 
 #parceiros {
@@ -234,7 +237,7 @@ article {
     color: #1C72AB;
     font-weight: 700;
     font-size: 1.5rem;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .partners-logo img {
@@ -448,6 +451,10 @@ footer {
         text-align: center;
     }
 
+    #video {
+        font-size: 2.5rem;
+    }
+    
     #video iframe {
         width: 640px;
         height: 360px;
