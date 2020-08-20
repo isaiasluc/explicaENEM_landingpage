@@ -206,10 +206,10 @@ article {
 
 #text-about {
     padding: 100px 40px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     color: #1C72AB;
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
 
 #text-about > p {
@@ -528,7 +528,7 @@ footer {
     }
 
     #time-explica > p {
-        padding: 70px 0px;
+        padding: 30px 0px;
     }
 
     .time-description {
