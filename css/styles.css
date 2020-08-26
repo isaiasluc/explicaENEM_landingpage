@@ -6,8 +6,8 @@ html, body {
     /*font-family: 'Roboto', sans-serif;/*
     /*font-family: 'Open Sans', sans-serif;*/
     background-color: whitesmoke;
-    
     scroll-behavior: smooth;
+    overflow-y: auto;
 }
 
 
@@ -342,9 +342,10 @@ article {
 
 footer {
     text-align: center;
-    padding: 0px;
+    padding: 3px;
     height: fit-content;
-    color: black;
+    color: #1C72AB;
+    font-weight: 400;
 }
 
 /* --------------- DESKTOP CSS -------------- */
@@ -353,6 +354,7 @@ footer {
     .nav-wrapper > a {
         margin-left: 50px;
     }
+    
 
 /* Wrapper */
 .icon-button {
