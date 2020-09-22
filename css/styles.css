@@ -318,10 +318,10 @@ article {
 
 .time-description {
     font-size: 1rem;
-    padding: 20px 10px;
+    margin: 20px 10px;
     text-align: center;
     color: white;
-    line-height: 1.5rem;
+    line-height: 1rem;
     font-weight: 700;
 }
 
